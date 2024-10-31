@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <style>
+        body{
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('netflix-bg.jpg');
+                 -webkit-background-size: cover;
+                 -moz-background-size:  cover;
+                 -o-background-size: cover;
+                background-size: cover;
+        }
+        .logo{
+            color:red;
+            font-size:30px ;
+            font-weight: bold;
+        }
+        .title{
+            color: white;
+            font-size: 54px;
+            font-weight: bold;
+            width: 500px;
+        }
+        .price{
+            color:white;
+            font-size: 20px;
+        }
+        .msg{
+            color: white;
+            font-size: 15px;
+        }
+        input{
+            padding: 10px;
+            font-size: 15px;
+            background-color: rgb(40, 37, 37);
+            color: white;
+            border-width: 0.5px;
+            width: 250px;
+
+        }
+        button{
+            background-color: rgb(194, 9, 9);
+            padding-top: 12px;
+            padding-bottom:11px;
+            padding-left:10px ;
+            padding-right:11px;
+            font-size: 15px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            margin-left: 11px;
+        }
+        .contanier{
+            text-align:center;
+            position:absolute;
+            top:50%;
+            right:50%;
+            transform:translate(50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <p class="logo">NETFLIX</p>
+
+
+    <div class="contanier">
+    <p class="title">Unlimited movies, TV shows, and more </p>
+    <P class="price">Starts at USD 2.99. Cancel anytime.</P>
+    <p class="msg">Ready to watch? Enter your email to create or restart your membership.</p>
+
+    <input type="text" placeholder="Email address " >
+    <button>Get Started &gt</button>
+    </div>
+    
+</body>
+</html>
