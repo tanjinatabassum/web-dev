@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .box{
+            
+            display: inline-block;
+            background-color: grey;
+
+        }
+        .user{
+            margin: 5px;
+            padding: 5px;
+            background-color: white;
+            
+        }
+        .pp{
+           
+            width:250px;
+            height: 200px;
+        }
+        
+        .col{
+            display: grid;
+            grid-template-columns: 50px 1fr;
+        }
+        .col-1{
+           
+            margin-left: 5px;
+            border-top: 0;
+          
+        }
+
+        .col-2{
+            
+            margin-left: 10px;
+           
+        }
+        .logo{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            border-left: 5px;
+            
+        }
+        .name{
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        .mfrd{
+            margin-top: 0;
+            font-size: 13px;
+        }
+      
+        button{
+            background-color: rgb(37, 37, 241);
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="user">
+            <img class="pp"src="/media/Tom.jpg"  >
+
+            <div class="col">
+                <div  class="col-1" >
+                    <img class="logo" src="/media/Tom.jpg" width="40px" >
+                </div>
+                <div class="col-2">
+                    <p class="name">Tom</p>
+                    <p class="mfrd">5 Mutual Friends</p>
+                    <button>Add Friend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="user">
+            <img class="pp"src="/media/Jerry.jpg"  >
+
+            <div class="col">
+                <div  class="col-1" >
+                    <img class="logo" src="/media/Jerry.jpg" width="40px" >
+                </div>
+                <div class="col-2">
+                    <p class="name">Jerry</p>
+                    <p class="mfrd">7 Mutual Friends</p>
+                    <button>Add Friend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img class="pp"src="/media/Bunny.jpg"  >
+
+            <div class="col">
+                <div  class="col-1" >
+                    <img class="logo" src="/media/Bunny.jpg" width="40px" >
+                </div>
+                <div class="col-2">
+                    <p class="name">Bunny</p>
+                    <p class="mfrd">10 Mutual Friends</p>
+                    <button>Add Friend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img class="pp"src="/media/Pooh.jpg"  >
+
+            <div class="col">
+                <div  class="col-1" >
+                    <img class="logo" src="/media/Pooh.jpg" width="40px" >
+                </div>
+                <div class="col-2">
+                    <p class="name">Pooh</p>
+                    <p class="mfrd">15 Mutual Friends</p>
+                    <button>Add Friend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img class="pp"src="/media/nephew.webp"  >
+
+            <div class="col">
+                <div  class="col-1" >
+                    <img class="logo" src="/media/nephew.webp" width="40px" >
+                </div>
+                <div class="col-2">
+                    <p class="name">Nephew</p>
+                    <p class="mfrd">5 Mutual Friends</p>
+                    <button>Add Friend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
